@@ -1,0 +1,9 @@
+[project]
+name = "sora-tool"
+version = "0.1.0"
+description = "CLI tool for managing SORA API configuration and requests."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+sora-tool = "sora_tool.cli:main"
